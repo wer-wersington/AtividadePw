@@ -1,0 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+  
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* -------------------------------------------------Menu Superior-------------------------------------------------------- */
+.Menu{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: -20px -20px 1000px 2px #000;
+
+}
+
+.Menu li {
+	display:inline-block ;
+	padding: 0 10%;
+
+}
+
+.Menu li a {
+	font-size: 90%;
+	color: black;
+	text-decoration: none;
+}
+
+.Menu li a:hover {
+	transition: 0.2s ease-in-out;
+	text-shadow:#F26699 1px 0 10px;
+	color: #F26699;
+	text-decoration: none;
+}
+/* -------------------------------------------------Sessão Apresentação-------------------------------------------------------------- */
+
+h1{
+	font-family:'Poetsen One';
+	font-size: 3em;
+}
+
+.Apresentacao{
+	display: flex;
+	min-height: 500px;
+	background-color: #D2D918;
+}
+
+.Apresentacao h1{
+	color: #fff;
+	padding-bottom: 5%;
+	
+}
+
+.ElementoTexto{
+	display: block;	
+}
+.Apresentacao .ElementoTexto{
+display: block;
+padding-top: 5%;
+margin-left: 10%;
+margin-right: 0;
+text-align: right;
+}
+.Apresentacao p {
+	padding-left: 27%;
+	color: #590A4C;
+	font-size: 16px;
+}
+
+.Apresentacao button{
+	font-family: 'Inter','Arial';
+	border-radius: 10px;
+	width: 110px;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+
+	
+}
+
+.Apresentacao .botoes {
+display: block;
+margin-top: 23px;
+
+}
+
+.Apresentacao .BotaoSaiba {
+
+	background-color: #590A4C;
+	color: white;
+	margin-right: 2%;
+
+	}
+.imagemApresentaca	{
+	display: flexbox;
+	padding: 10px;
+}
+
+.imagemApresentaca , img{
+	max-width: 50%;
+	margin: 40px;
+}
+/* -------------------------------------------------Sessão ideia-------------------------------------------------------------- */
+
+.Ideia{	
+	min-height: 200px;
+	text-align: center;
+	background-color: #FFF;
+}
+
+.Ideia h1{
+	margin-top: 6%;
+	color: #F2A20C;
+	padding-bottom: 1%;
+	
+}
+
+.Ideia p{
+	padding: 0% 30%;
+	color: #590A4C;
+	padding-bottom: 1%;
+	
+}
+
+/* -------------------------------------------------Sessão quem somos-------------------------------------------------------------- */
+
+.Quemsomos{	
+	padding-top: 12%;
+	min-height: 300px;
+	text-align: center;
+	background-color: #6C94E3;
+}
+
+.Quemsomos h1{
+	color: #D2D918;
+	padding-bottom: 1%;
+}
+
+.Quemsomos p{
+	padding: 0% 30%;
+	color: #FFF;
+}
+
+
+
+
+/* -------------------------------------------------Sessão Agradecimentos-------------------------------------------------------------- */
+
+.Agradecimentos{
+	font-size: 56px;
+	text-align: center;
+	padding: 7% 20%;
+}
+
+
+
+/* ------------------------------------------------- ista de itens-------------------------------------------------------------- */
+.Caixa{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 15%;
+	padding: 30px;
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	display: block;
+}
+.Itens a{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	background-color: #D9D9D9;
+	border-radius: 5px;
+	font-size: 50px;
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+}
+
+.listitens{
+	background-color: #F26699;
+}
+.lis{
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+	font-size: 70px;
+}
+.titulo{
+
+}
+/* ------------------------------------------------- Lista de Contato-------------------------------------------------------------- */
+
+.ajuda{
+	display: block;
+	padding: 10%;
+
+}
+.ajuda p{
+	text-align: center;
+	margin: 50px;
+}
+.ajuda h1{
+	text-align: center;
+	margin: 50px;
+	color: #fff;
+}
+
+.zap{
+	display: flex;
+}
+
+.zap img{
+	object-fit: cover;
+	padding: 0;
+	max-width: 100px;
+	
+}
+
+.zap p{
+	padding: bottom 10px;
+	color: #fff;
+}
+
+.cont{
+	background-color: #6C94E3;
+}
+/* ------------------------------------------------- Carrossel -------------------------------------------------------------- */
+.carousel-container {
+	position: relative;
+	max-width: 600px;
+	margin: 50px auto;
+	overflow: hidden;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+  }
+  
+  .carousel {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+	min-width: 100%;
+  }
+  
+  .carousel-item img {
+	width: 100%;
+	display: block;
+	object-fit:unset;
+  }
+  
+  .prev, .next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 50%;
+  }
+  
+  .prev {
+	left: 10px;
+  }
+  
+  .next {
+	right: 10px;
+  }
+  
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+
+
+/* -------------------------------------------------------------------------------- */
+footer{
+	text-align: center;
+	color: #FFF;
+	background-color: #000;
+	padding: 1%;
+	
+}
