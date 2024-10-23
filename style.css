@@ -249,7 +249,7 @@ margin: 35px;
 	padding-bottom: 1%;
 
 }
-
+	
 .Ideia p {
 	padding: 0% 30%;
 	color: #590A4C;
@@ -260,7 +260,8 @@ margin: 35px;
 /* -------------------------------------------------Sessão quem somos-------------------------------------------------------------- */
 
 .Quemsomos {
-	padding-top: 12%;
+	padding-top: 10%;
+	padding-bottom: 6%;
 	min-height: 300px;
 	text-align: center;
 	background-color: #6C94E3;
@@ -298,6 +299,14 @@ margin: 35px;
 	background-color: #F2F2F2;
 	border-radius: 10px;
 	display: block;
+
+}
+.Caixa .Itens{
+	transition: transform 0.2s ease-in-out;
+}
+
+.Caixa .Itens:hover {
+	transform: scale(1.1);
 }
 
 .Itens a {
@@ -383,7 +392,7 @@ padding: 20px;
 }
 
 /* ------------------------------------------------- Carrossel -------------------------------------------------------------- */
- .carousel-container {
+ /* .carousel-container {
 
 		max-width: 810px;
 		margin: 50px auto;
@@ -438,7 +447,52 @@ padding: 20px;
 .prev:hover,
 .next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
+} */
+
+ /* Seu CSS aqui */
+ .carousel-container {
+	max-width: 810px;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
 }
+.carousel {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+	min-width: 800px;
+	max-width: 800px;
+}
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+.prev, .next {
+	position: absolute;
+	width: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 20%;
+}
+.prev { 
+	left: 10px; 
+	}
+.next { 
+	right: 10px;
+	}
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	}
 
 .NosTrab {
 	background: #590A4C;
@@ -514,4 +568,9 @@ button.evento-mouse:hover {
 .Palvralista:hover{
 	font-weight: 600;
 	
+}
+
+.entreContato{
+	padding-top: 8	0px;
+	padding-bottom: 10px;
 }
